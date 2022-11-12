@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-content">
+      <header class="head">
+        <nav class="header-nav">
+          <h2 class="notification-header">Notifications <span class="num">3</span></h2>
+          <button class="mark-all-as-read">Mark all as read</button>
+        </nav>
+      </header>
+      <div class="notification-list">
+        <div class="article active">
+          <picture class="profile-picture">
+            <img src="assets\images\avatar-mark-webber.webp" alt="profile-pic" />
+          </picture>
+          <div class="message-header">
+            <div class="notification-content">
+              <p class="mark-notif"><strong class="name">Mark Webber</strong> <span class="col">reacted to your recent
+                  post</span>
+                <strong class="mark act">My first tournament today!</strong>
+                <span class="red-ball act"></span>
+              <div class="notification-time">1m ago</div>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="article active">
+          <picture class="profile-picture">
+            <img src="assets\images\avatar-Angela-Gray.webp" alt="profile-pic" />
+          </picture>
+          <div class="message-header">
+            <div class="notification-content">
+              <p class="angela-notif">
+                <strong class="name ange act">Angela Gray</strong> <span class="col">followed you</span>
+                <span class="red-ball act"></span>
+              </p>
+            </div>
+            <div class="notification-time">5m ago</div>
+          </div>
+        </div>
+        <div class="article active">
+          <picture class="profile-picture">
+            <img src="assets\images\avatar-Jacob-Thompson.webp" alt="profile-pic" />
+          </picture>
+          <div class="message-header">
+            <div class="notification-content">
+              <p class="jacob-notif">
+                <strong class="name">Jacob Thompson</strong> <span class="col">
+                  has joined your
+                  group
+                </span> <strong class="chess act">Chess Club</strong>
+                <span class="red-ball act"></span>
+              </p>
+            </div>
+            <div class="notification-time">1 day ago</div>
+          </div>
+        </div>
+        <div class="article">
+          <picture class="profile-picture">
+            <img src="assets\images\avatar-Rizky-Hasanuddin.webp" alt="profile-pic" />
+          </picture>
+          <div class="message-header">
+            <div class="notification-content">
+              <p class="rizky-notif">
+                <strong class="name">Rizky Hasanuddin</strong> <span class="col">sent you a
+                  private message</span>
+              </p>
+            </div>
+            <div class="notification-time raz">5 days ago</div>
+              <p class="message-content" id="raz">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a <br> few weeks now and I'm already having lots of fun and
+                improving my <br> game.
+              </p>
+          </div>
+        </div>
+        <div class="article">
+          <picture class="profile-picture">
+            <img src="assets\images\avatar-Kimberly-Smith.webp" alt="profile-pic" />
+          </picture>
+          <div class="message-header kim">
+            <div class="notification-content">
+              <p class="kim-notif">
+                <strong class="name">Kimberly Smith</strong> <span class="col">commented on your picture</span>
+              </p>
+            </div>
+            <div class="notification-time">1 week ago</div>
+          </div>
+          <div class="comment-pic">
+            <picture class="profile-picture">
+              <img src="assets\images\image-chess.webp" alt="girl playing chess" class="kim-comment">
+            </picture>
+          </div>
+        </div>
+        <div class="article">
+          <picture class="profile-picture">
+            <img src="assets\images\avatar-Nathan-Peterson.webp" alt="profile-pic" />
+          </picture>
+          <div class="message-header">
+            <div class="notification-content">
+              <p class="nat-notif">
+                <strong class="name">Nathan Petersonebber</strong> <span class="col">reacted
+                  to your recent post</span>
+                <strong class="post-type gray-opacity nat">5 end-game strategies to <br> increase your win rate</strong>
+              </p>
+            </div>
+            <div class="notification-time">2 weeks ago</div>
+          </div>
+        </div>
+        <div class="article">
+          <picture class="profile-picture">
+            <img src="assets\images\avatar-Anna-Kim.webp" alt="profile-pic" />
+          </picture>
+          <div class="message-header">
+            <div class="notification-content">
+              <p class="anna-notif">
+                <strong class="name">Anna Kim</strong> <span class="col">left the group</span>
+                <strong class="post-type gray-opacity chess">Chess Club</strong>
+              </p>
+            </div>
+            <div class="notification-time">2 weeks ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+      href="#">Minilik Zeru</a>.
+  </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>

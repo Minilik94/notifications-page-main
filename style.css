@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+:root {
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+  --White: hsl(0, 0%, 100%);
+  --Very--light--grayish--blue: hsl(210, 60%, 98%);
+  --Light--grayish--blue--1: hsl(211, 68%, 94%);
+  --Light--grayish--blue--2: hsl(205, 33%, 90%);
+  --Grayish--blue: hsl(219, 14%, 63%);
+  --Dark--grayish--blue: hsl(219, 12%, 42%);
+  ;
+  --Very--dark--blue: hsl(224, 21%, 14%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;;
+}
+
+body {
+  background: var(--Light--grayish--blue--1);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  background-color: var(--White);
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 697px;
+}
+
+.header-nav {
+  padding: 0 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2.notification-header {
+  display: flex;
+  justify-content: space-between;
+  width: 29%;
+}
+
+.mark-all-as-read {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--Dark--grayish--blue);
+}
+
+.mark-all-as-read:hover {
+  color: var(--Blue);
+}
+
+.num {
+  background-color: var(--Blue);
+  color: var(--White);
+  border-radius: 2px;
+  font-size: 18px;
+  height: 2%;
+  padding: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.profile-picture>img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.notification-content {
+  margin: 1rem 0 0.5rem;
+}
+
+.article {
+  margin-bottom: 0.5rem;
+  display: flex;
+  padding: 0 0 0.1rem 0;
+  border-radius: 8px;
+}
+
+.active {
+  background-color: var(--Very--light--grayish--blue);
+}
+
+.notification-time,
+.col {
+  color: var(--Dark--grayish--blue);
+}
+
+.kim {
+  width: 100%;
+}
+
+.red-ball {
+  width: 1%;
+  background-color: var(--Red);
+  border-radius: 50%;
+  padding: 0.25rem;
+  display: inline-block;
+}
+
+.message-content {
+  padding: 0.5rem 0.5rem 0rem 1.4rem;
+  color: var(--Dark--grayish--blue);
+}
+
+.mark,
+.nat {
+  color: var(--Dark--grayish--blue);
+}
+
+.chess {
+  color: var(--Blue);
+}
+
+.mark,
+.chess,
+.red-ball,
+.ange,
+.message-content {
+  cursor: pointer;
+}
+
+.mark:hover {
+  color: var(--Blue);
+}
+
+.chess:hover {
+  color: var(--Blue);
+}
+
+.red-ball:hover {
+  color: var(--Blue);
+}
+
+.ange:hover {
+  color: var(--Blue);
+}
+
+.message-content:hover {
+  color: var(--Blue);
+}
+.raz{
+margin-bottom: 0.2rem;
+}
+#raz{
+border: 1px solid var(--Light--grayish--blue--2);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
